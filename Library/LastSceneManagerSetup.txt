@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/NewLevel2.unity
+- path: Assets/newnewlevel2.unity
   isLoaded: 1
   isActive: 1
