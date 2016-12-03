@@ -39,7 +39,7 @@ function LateUpdate ()
 {
 	x += Input.GetAxis("Mouse X") * xSpeed * 0.02;
 	y -= Input.GetAxis("Mouse Y") * ySpeed * 0.02;
-	var rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(y, x, 0), Time.deltaTime * 3);		// set rotation value to equal the rotation of the camera and time
+	var rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(y, x, 0), Time.deltaTime * 20);		// set rotation value to equal the rotation of the camera and time
 	transform.rotation = rotation;
 }
 
