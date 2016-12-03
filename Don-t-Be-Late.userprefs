@@ -1,15 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp-firstpass.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\FirstPersonController.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\New Scripts\NewPlateScript.js">
     <Files>
+      <File FileName="Assets\Scripts\New Scripts\NewNewDoorScript.js" Line="77" Column="36" />
       <File FileName="Assets\Scripts\New Scripts\NewDoorScript.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\New Scripts\NewNewDoorScript.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\New Scripts\ElevatorDoorScript.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\OldElevatorDoorScript.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\New Scripts\BoxScript.js" Line="31" Column="25" />
-      <File FileName="Assets\Scripts\SmallBox.js" Line="5" Column="55" />
+      <File FileName="Assets\Scripts\New Scripts\BoxScript.js" Line="45" Column="8" />
+      <File FileName="Assets\Scripts\SmallBox.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\BigBox.js" Line="1" Column="1" />
-      <File FileName="Assets\FirstPersonController.js" Line="42" Column="99" />
+      <File FileName="Assets\FirstPersonController.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\New Scripts\NewPlateScript.js" Line="71" Column="12" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
