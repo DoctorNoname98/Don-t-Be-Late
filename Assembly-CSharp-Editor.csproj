@@ -38,10 +38,10 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>D:/Program files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>D:/Program files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -121,34 +121,34 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="UnityEditor.Advertisements">
- <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ <HintPath>D:/Program files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
+ <HintPath>D:/Program files/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.EditorTestsRunner">
- <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
+ <HintPath>D:/Program files/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/Program files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ <HintPath>D:/Program files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>D:/Program files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Networking">
- <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ <HintPath>D:/Program files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TreeEditor">
- <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ <HintPath>D:/Program files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
- <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ <HintPath>D:/Program files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
- <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ <HintPath>D:/Program files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -156,6 +156,8 @@
       <Project>{6C490B5E-5246-29F9-B17D-15951E5DB2AD}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
       <Project>{87653F86-C36D-CF5B-8C41-0408047FD459}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{EA707D79-A547-7660-0800-3EC61A62C587}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript.unityproj">
       <Project>{9CB51C4D-C385-BA87-E936-C7127863DAC6}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
   </ItemGroup>
