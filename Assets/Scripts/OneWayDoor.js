@@ -1,23 +1,22 @@
 ﻿#pragma strict
 var closeDoor = false;
 var key: GameObject;
-
+var startingRotation: float;
 function Start () {
-
+	startingRotation = transform.rotation.y;
 }
 
 function Update () {
 	if(closeDoor && key != null)
 	{
-		if(transform.position.y < 10.99)
+		if(transform.rotation.y < startingRotation)
 		{
-			transform.Translate(0, Time.deltaTime * 3, 0);
-		}
-	} else
-	{
-		if(transform.position.y > 2.99)
+			transform.rotation.y += Time.deltaTime / 2;
+		} else {transform.rotation.y = 0;}
+	} else {
+		if(transform.rotation.y > startingRotation - .7)
 		{
-			transform.Translate(0, -Time.deltaTime * 3, 0);
+			transform.rotation.y -= Time.deltaTime / 2;
 		}
 	}
 }

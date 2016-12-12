@@ -1,19 +1,10 @@
-﻿<Properties StartupItem="Assembly-CSharp-firstpass.csproj">
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\FirstPersonController.js">
-    <Files>
-      <File FileName="Assets\Scripts\New Scripts\NewDoorScript.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\New Scripts\NewNewDoorScript.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\New Scripts\ElevatorDoorScript.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\OldElevatorDoorScript.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\New Scripts\BoxScript.js" Line="31" Column="25" />
-      <File FileName="Assets\Scripts\SmallBox.js" Line="5" Column="55" />
-      <File FileName="Assets\Scripts\BigBox.js" Line="1" Column="1" />
-      <File FileName="Assets\FirstPersonController.js" Line="42" Column="99" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\drnon_000\Desktop\Level Design\Don-t-Be-Late\Assets\Scripts\CSharp Scripts\OpenableDoorTrigger.cs" line="17" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

@@ -30,7 +30,7 @@ function Update ()
 
 	if (box != null)
 	{
-		if (boxNeeded == "smallBox" && box.tag == "Small Box" && box.GetComponent(SmallBox).pickedUp == false)
+		if (boxNeeded == "smallBox" && box.tag == "Small Box" && box.GetComponent(BoxScript).pickedUp == false)
 		{
 			activated = true;
 		}
@@ -51,15 +51,6 @@ function OnTriggerEnter(other: Collider)
 			boxInSpace = true;
 		}
 	}
-	/*if (other.tag == "SmallBox" && boxNeeded == "smallBox")
-	{
-		box = other.gameObject;
-		boxInSpace = true;
-	} else if (other.tag == "BigBox" && boxNeeded == "bigBox")
-	{
-		box = other.gameObject;
-		boxInSpace = true;
-	}*/
 }
 
 function OnTriggerExit(other: Collider)

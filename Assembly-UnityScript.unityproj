@@ -45,13 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\FirstPersonController.js" />
      <Compile Include="Assets\Scripts\BigBox.js" />
      <Compile Include="Assets\Scripts\BigBoxDoor.js" />
      <Compile Include="Assets\Scripts\BigBoxPlate.js" />
-     <Compile Include="Assets\Scripts\Canon.js" />
      <Compile Include="Assets\Scripts\CharacterControllerr.js" />
-     <Compile Include="Assets\Scripts\ClassExample.js" />
      <Compile Include="Assets\Scripts\DamageTrigger.js" />
      <Compile Include="Assets\Scripts\DoorScript.js" />
      <Compile Include="Assets\Scripts\DungeonCrawlerCamera.js" />
