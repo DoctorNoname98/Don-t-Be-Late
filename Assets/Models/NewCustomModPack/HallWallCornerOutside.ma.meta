@@ -1,35 +1,15 @@
 fileFormatVersion: 2
-guid: 118b849b8bebef540b81a04c603cc6b2
-timeCreated: 1479708972
+guid: e5b1fb502bc0cc44486fcf92e3d4665b
+timeCreated: 1519201648
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
-    100002: pCube1
-    100004: pCube2
-    100006: pCube3
-    100008: pCube4
-    100010: transform1
-    100012: transform2
-    100014: BasicWall:pCube1
     400000: //RootNode
-    400002: pCube1
-    400004: pCube2
-    400006: pCube3
-    400008: pCube4
-    400010: transform1
-    400012: transform2
-    400014: BasicWall:pCube1
-    2300000: pCube1
-    2300002: pCube4
-    2300004: BasicWall:pCube1
-    3300000: pCube1
-    3300002: pCube4
-    3300004: BasicWall:pCube1
+    2300000: //RootNode
+    3300000: //RootNode
     4300000: pCube1
-    4300002: pCube4
-    4300004: BasicWall:pCube1
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -91,7 +71,7 @@ ModelImporter:
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
-    skeletonHasParents: 0
+    skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
   humanoidOversampling: 1
